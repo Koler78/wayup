@@ -9,29 +9,32 @@
 	color: white;
 }
 
-span {
+.header span {
 	color: red;
+}
+
+.content li {
+	border: 1px solid;
+	padding: 5px 0;
+	font-size: 24px;
 }
 
 .block__green {
 	background-color: green;
 	color: white;
 	padding: 7px 0px 7px 5px;
-
-	
 }
 
 .block__green-big {
 	background-color: green;
 	color: white;
 	padding: 50px 0px 50px 50px;
-
 }
+
 .form-title {
 	margin-left: 100px;
 }
 
-.border li {
-	border: 1px solid;
-	padding: 5px 0;
+.footer {
+	margin-top: 40px;
 }
