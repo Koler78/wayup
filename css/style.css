@@ -1,0 +1,37 @@
+﻿h1 {
+	color: red;
+}
+
+.block {
+	width: 100px;
+	margin-bottom: 100px;
+	background-color: blue;
+	color: white;
+}
+
+span {
+	color: red;
+}
+
+.block__green {
+	background-color: green;
+	color: white;
+	padding: 7px 0px 7px 5px;
+
+	
+}
+
+.block__green-big {
+	background-color: green;
+	color: white;
+	padding: 50px 0px 50px 50px;
+
+}
+.form-title {
+	margin-left: 100px;
+}
+
+.border li {
+	border: 1px solid;
+	padding: 5px 0;
+}
