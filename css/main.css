@@ -1,0 +1,168 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #201b2d;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.9em;
+	letter-spacing: 0.04em;
+}
+
+.header {
+	background: linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	padding-top: 65px;
+	color: #fff;
+	padding-bottom: 54px;
+}
+	
+.container {
+	width: 1070px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	width: 570px;
+}
+
+.title {
+	width: 560px;
+	margin-top: 163px;
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-family: 'Open Sans', sans-serif;
+	width: 430px;
+	font-size: 16px;
+	
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #2e2a1b;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 220px;
+	background-color: #ffd429;
+	padding: 20px 0;
+	letter-spacing: 0.03em;
+	transition: all 0.6s ease;
+}
+
+.button:hover {
+	background-color: #ffc115;
+}
+
+
+.learn {
+	padding-top: 115px;
+}
+
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 120px;
+}
+
+.skill {
+	padding-top: 60px;
+	width: 330px;
+	text-align: center;
+		
+}
+
+.skill-title {
+	font-size: 19px;
+	
+}
+
+.skill-text {
+	margin-top: 14px;
+	line-height: 1.4em;
+}
+
+.skill-pic {
+	margin-bottom: 30px;
+}
+
+.ticket {
+	padding-top: 115px;
+	background: #ecf3f8;
+	padding-bottom: 107px;
+}
+
+
+.ticket__form {
+	width: 350px;
+	margin: 0 auto;
+	text-align: center; 
+}
+
+.form {
+	margin-top: 62px;
+}
+
+.form__item {
+	width: 344px;
+	height: 48px;
+	border: 1px solid #bfb8d1;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 2px;
+	font-size: 15px;
+	padding-left: 25px;
+	margin-bottom: 14px;
+}
+
+.form__btn {
+	display: block;
+	width: 344px;
+	border: 0;
+	cursor: pointer;
+	margin: 0 auto;
+	
+}
+
+.footer {
+	padding: 66px 0;
+	background: #164d7a;
+}
+
+.credits {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+} 

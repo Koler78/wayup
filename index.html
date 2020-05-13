@@ -1,47 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="./css/style.css">
+	<title>Верстка современного сайта</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-	<header class="header">
-		<img style="width: 150px;" src="logo.jpg" alt="WayUP">
-		<h1>Вступление H1</h1>
-		<p class="block">Это текст моего первого домашнего задания.</p>
-		<p>Не верится, но мне уже удается писать свой <span>первый код на HTML.</span></p>
+	<header id="header" class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="WAYUP" class="logo">
+			<div class="wrapper">
+				<div class="offer">
+					<h1 class="title">
+						С помощью верстки<br>
+						я создам ту жизнь, о которой
+						<span>мечтаю!</span>
+					</h1>
+					<p class="intro">
+						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%.
+						Меня не остановить!
+					</p>
+					<a href="#" class="button">Двигаться к мечте!</a>
+				</div>
+				<img src="img/image.png" alt="Dreamwork" class="desktop">
+			</div>
+		</div>
 	</header>
-	<section class="content">
-		<h2 class="block__green">Что дальше? H2</h2>
-		<p>
-			Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!
-			<a href="https:\\google.com" target="_blank">Прочитать больше в Google</a>
-		</p>
+
+	<section id="learn" class="learn">
+		<div class="container">
+			<h2 class="section-title">Что меня ждет впереди</h2>
+			<div class="skills">
+				<div class="skill">
+					<img src="/img/time.png" alt="time" class="skill-pic">
+					<h3 class="skill-title">
+						Свободное время
+					</h3>
+					<p class="skill-text">
+						Мне нужно свободное время на семью и самое настоящее
+					</p>
+				</div>
+				<div class="skill">
+					<img src="/img/travel.png" alt="travel" class="skill-pic">
+					<h3 class="skill-title">
+						Яркие путешествия
+					</h3>
+					<p class="skill-text">
+						Работать откуда угодно - что может быть лучше?
+					</p>
+				</div>
+				<div class="skill">
+					<img src="/img/value.png" alt="value" class="skill-pic">
+					<h3 class="skill-title">
+						Создание ценности
+					</h3>
+					<p class="skill-text">
+						Нет ничего сильнее, чем жить не просто так, создавая ценность
+					</p>
+				</div>
+			</div>
+		</div>
 	</section>
-	<section class="content">
-		<h2 class="block__green-big">Что я буду уметь: H2</h2>
-		<p class="form-title">Я смогу создавать вот такие замечательные формы:</p>
-		<form action="#">
-			<input type="text" name="name" placeholder="Имя" required>
-			<input type="email" name="email" placeholder="E-mail" required>
-			<input type="tel" name="phone" placeholder="Телефон" required>
-			<button type="submit">Отправить форму</button>
-		</form>
-		<p>А также, я научусь создавать списки:</p>
-		<ul>
-			<li>С одним пунктом</li>
-			<li>С несколькими пунктами</li>
-			<li>И даже с тремя отдельными пунктами</li>
-		</ul>
+	<section id="ticket" class="ticket">
+		<div class="container">
+			<h2 class="section-title">
+				Форма заказа билета в будудщее
+			</h2>
+			<div class="ticket__form">
+				<form action="#" class="form">
+					<input type="text" name="name" placeholder="Имя" required class="form__item">
+					<input type="email" name="email" placeholder="E-mail" required class="form__item">
+					<input type="tel" name="phone" placeholder="Телефон" required class="form__item">
+					<input type="text" name="location" placeholder="Куда я полечу в ближайшее время?" required
+						class="form__item">
+					<button type="submit" class="button form__btn">
+						Двигаться к мечте!
+					</button>
+				</form>
+
+			</div>
+		</div>
 	</section>
-	<footer class="footer">
-		<h2 class="block__green">Отличное начало! H2</h2>
-		<a href="https://wayup.in/cabinet/course10/unit1/lesson1" target="_blank">Перейти на страницу первого занятия
-			курса</a>
+	<footer id="footer" class="footer">
+		<div class="container">
+			<p class="credits">
+				© Все мои мечты защищены моим трудолюбием
+			</p>
+		</div>
 	</footer>
 </body>
 
