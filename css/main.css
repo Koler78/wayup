@@ -184,11 +184,7 @@ p {
 	.skill {
 		width: 300px;
 	}
-	.desktop {
-		overflow: inherit; /* for iPad 1024px */
-	}
-
-
+	
 /* 768px   -   992px   */
 @media screen and (max-width: 992px) {
 	.container {
