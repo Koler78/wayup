@@ -184,6 +184,9 @@ p {
 	.skill {
 		width: 300px;
 	}
+	.desktop {
+		width: 100%;
+	}
 		
 
 /* 768px   -   992px   */
