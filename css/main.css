@@ -181,6 +181,8 @@ p {
 	.skill {
 		width: 300px;
 	}
+	.desktop {
+		overflow: visible;
 }
 
 /* 768px   -   992px   */
