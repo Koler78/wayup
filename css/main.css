@@ -164,3 +164,78 @@ p {
 	color: #fff;
 	font-size: 14px;
 } 
+
+
+/* Adaptive layout */
+
+/* 992px   -   1200px   */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+		
+}
+
+	.offer {
+		width: 100%;
+	}
+	.skill {
+		width: 300px;
+	}
+}
+
+/* 768px   -   992px   */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.title {
+		margin-top: 70px; 
+	}
+	.intro {
+		width: auto;
+	}
+	.button {
+		width: 100%;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.skill:last-child {
+		margin-bottom: 0px;
+	}
+}
+
+/* 576px   -   768px   */
+@media screen and (max-width: 768px) {
+	.container {
+		
+		width: 540px;		
+	}
+	
+	.desktop {
+		width: 100%;
+	}
+	 .form {
+		width: 100%;
+	}
+	.form__item {
+		width: 100%;
+	} 
+}
+
+/* 320px   -   576px   */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;		
+	}
+	.title {
+		width: auto;
+	} 
+}
