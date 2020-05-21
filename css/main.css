@@ -5,6 +5,7 @@ body {
 	color: #201b2d;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -22,6 +23,10 @@ p {
 	letter-spacing: 0.04em;
 }
 
+ .animated {
+	 opacity: 0;
+ }
+ 
 .header {
 	background: linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
 	padding-top: 65px;
@@ -81,6 +86,7 @@ p {
 	letter-spacing: 0.03em;
 }
 
+
 .button:hover {
 	background-color: #ffc115;
 	transition: all 0.6s ease;
@@ -94,7 +100,6 @@ p {
 .section-title {
 	font-size: 30px;
 	text-align: center;
-	
 }
 
 .skills {
@@ -102,7 +107,7 @@ p {
 	justify-content: space-between;
 	align-items: flex-end;
 	margin-top: 60px; 
-		
+			
 }
 
 .skill {
